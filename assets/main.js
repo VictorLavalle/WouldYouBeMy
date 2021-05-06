@@ -2,6 +2,14 @@ let btnNo = document.getElementById('btn-no');
 let btnYes = document.getElementById('btn-yes');
 let title = document.getElementById('title');
 
+btnYes.addEventListener("click", function () {
+    saidYes();
+  });
+
+  btnNo.addEventListener("mouseover",function () {
+    moveButton();
+  });
+
 function saidYes(){
     btnYes.style.display = "none";
     btnNo.style.display = "none";
