@@ -1,0 +1,85 @@
+body {
+  background-color: #FC9483;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main {
+  margin: 10rem 0 0 auto;
+}
+
+#title {
+  color: #FFF;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+  justify-content: center;
+}
+
+.button {
+  padding: .5rem 2.5rem;
+  border-radius: 6px;
+  font-size: 2.5rem;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset,
+    0 1px 3px rgba(0, 0, 0, .2);
+}
+
+#btn-yes {
+  border: 1px solid #995309;
+  background-color: #d9750b;
+  background-image: linear-gradient(rgb(51, 255, 0) 10%, #00e71f 100%);
+}
+
+#btn-no {
+  border: 1px solid #990909;
+  background-color: #d90b0b;
+  background-image: linear-gradient(rgb(255, 0, 0) 10%, #e70000 100%);
+}
+
+#btn-yes:hover,
+#btn-yes:focus {
+  background-color: #74e01b;
+  background-image: linear-gradient(#88f000 10%, rgb(0, 255, 55) 100%);
+  outline: none;
+}
+
+#btn-yes:active {
+  background-color: #cf6a00;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2) inset;
+  background-image: linear-gradient(#6cf000 10%, #88f000 100%);
+}
+
+.image {
+  text-align: center;
+  justify-content: center;
+}
+
+#cheems {
+  height: 20rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+
+  .main {
+    margin-top: 8rem;
+  }
+
+  #title {
+    font-size: 2.2rem;
+  }
+  
+  .button {
+    font-size: 1.5rem;
+    padding: .5rem 1.8rem;
+  }
+
+  #cheems { 
+    margin-top: 1.5rem;
+    height: 13rem;
+  }
+
+}
