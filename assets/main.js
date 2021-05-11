@@ -14,7 +14,7 @@ btnYes.addEventListener("click", function () {
 function saidYes(){
     btnYes.style.display = "none";
     btnNo.style.display = "none";
-    title.innerHTML = "I Know U Would Say Yes🙊 <br> 💕ILYSM💕";
+    title.innerHTML = "I Knew U Would Say Yes🙊 <br> 💕ILYSM💕";
     cheems.src = "./assets/img/cheems.png";
 }
 
